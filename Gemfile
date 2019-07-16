@@ -1,4 +1,6 @@
-source 'https://rubygems.org'
+source 'https://gems.ruby-china.com/'
+#source 'https://rubygems.org'
+
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -35,6 +37,7 @@ gem 'simple_form'
 gem 'font-awesome-rails'
 gem 'carrierwave'
 gem 'mini_magick'
+gem 'letter_opener', group: :development
 
 
 group :development, :test do
