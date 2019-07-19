@@ -21,7 +21,7 @@ class Admin::OrdersController < ApplicationController
 
   def shipped
     @order = Order.find(params[:id])
-    @order.cancel_order!
+    @order.cancel_deliver!
     redirect_to :back
   end
 
